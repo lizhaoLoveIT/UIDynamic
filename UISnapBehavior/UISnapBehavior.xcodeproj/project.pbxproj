@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00695481C4DF2D500F9AC1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A00695471C4DF2D500F9AC1B /* main.m */; };
+		A006954B1C4DF2D500F9AC1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A006954A1C4DF2D500F9AC1B /* AppDelegate.m */; };
+		A006954E1C4DF2D500F9AC1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A006954D1C4DF2D500F9AC1B /* ViewController.m */; };
+		A00695511C4DF2D500F9AC1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A006954F1C4DF2D500F9AC1B /* Main.storyboard */; };
+		A00695531C4DF2D500F9AC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00695521C4DF2D500F9AC1B /* Assets.xcassets */; };
+		A00695561C4DF2D500F9AC1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00695541C4DF2D500F9AC1B /* LaunchScreen.storyboard */; };
+		A00695611C4DF2D500F9AC1B /* UISnapBehaviorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00695601C4DF2D500F9AC1B /* UISnapBehaviorTests.m */; };
+		A006956C1C4DF2D500F9AC1B /* UISnapBehaviorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A006956B1C4DF2D500F9AC1B /* UISnapBehaviorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A006955D1C4DF2D500F9AC1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A006953B1C4DF2D500F9AC1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00695421C4DF2D500F9AC1B;
+			remoteInfo = UISnapBehavior;
+		};
+		A00695681C4DF2D500F9AC1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A006953B1C4DF2D500F9AC1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00695421C4DF2D500F9AC1B;
+			remoteInfo = UISnapBehavior;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00695431C4DF2D500F9AC1B /* UISnapBehavior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISnapBehavior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00695471C4DF2D500F9AC1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A00695491C4DF2D500F9AC1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A006954A1C4DF2D500F9AC1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A006954C1C4DF2D500F9AC1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A006954D1C4DF2D500F9AC1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A00695501C4DF2D500F9AC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00695521C4DF2D500F9AC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00695551C4DF2D500F9AC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00695571C4DF2D500F9AC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A006955C1C4DF2D500F9AC1B /* UISnapBehaviorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISnapBehaviorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00695601C4DF2D500F9AC1B /* UISnapBehaviorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISnapBehaviorTests.m; sourceTree = "<group>"; };
+		A00695621C4DF2D500F9AC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00695671C4DF2D500F9AC1B /* UISnapBehaviorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISnapBehaviorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A006956B1C4DF2D500F9AC1B /* UISnapBehaviorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISnapBehaviorUITests.m; sourceTree = "<group>"; };
+		A006956D1C4DF2D500F9AC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00695401C4DF2D500F9AC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00695591C4DF2D500F9AC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00695641C4DF2D500F9AC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A006953A1C4DF2D500F9AC1B = {
+			isa = PBXGroup;
+			children = (
+				A00695451C4DF2D500F9AC1B /* UISnapBehavior */,
+				A006955F1C4DF2D500F9AC1B /* UISnapBehaviorTests */,
+				A006956A1C4DF2D500F9AC1B /* UISnapBehaviorUITests */,
+				A00695441C4DF2D500F9AC1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00695441C4DF2D500F9AC1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00695431C4DF2D500F9AC1B /* UISnapBehavior.app */,
+				A006955C1C4DF2D500F9AC1B /* UISnapBehaviorTests.xctest */,
+				A00695671C4DF2D500F9AC1B /* UISnapBehaviorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00695451C4DF2D500F9AC1B /* UISnapBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				A00695491C4DF2D500F9AC1B /* AppDelegate.h */,
+				A006954A1C4DF2D500F9AC1B /* AppDelegate.m */,
+				A006954C1C4DF2D500F9AC1B /* ViewController.h */,
+				A006954D1C4DF2D500F9AC1B /* ViewController.m */,
+				A006954F1C4DF2D500F9AC1B /* Main.storyboard */,
+				A00695521C4DF2D500F9AC1B /* Assets.xcassets */,
+				A00695541C4DF2D500F9AC1B /* LaunchScreen.storyboard */,
+				A00695571C4DF2D500F9AC1B /* Info.plist */,
+				A00695461C4DF2D500F9AC1B /* Supporting Files */,
+			);
+			path = UISnapBehavior;
+			sourceTree = "<group>";
+		};
+		A00695461C4DF2D500F9AC1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00695471C4DF2D500F9AC1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A006955F1C4DF2D500F9AC1B /* UISnapBehaviorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00695601C4DF2D500F9AC1B /* UISnapBehaviorTests.m */,
+				A00695621C4DF2D500F9AC1B /* Info.plist */,
+			);
+			path = UISnapBehaviorTests;
+			sourceTree = "<group>";
+		};
+		A006956A1C4DF2D500F9AC1B /* UISnapBehaviorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A006956B1C4DF2D500F9AC1B /* UISnapBehaviorUITests.m */,
+				A006956D1C4DF2D500F9AC1B /* Info.plist */,
+			);
+			path = UISnapBehaviorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00695421C4DF2D500F9AC1B /* UISnapBehavior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00695701C4DF2D500F9AC1B /* Build configuration list for PBXNativeTarget "UISnapBehavior" */;
+			buildPhases = (
+				A006953F1C4DF2D500F9AC1B /* Sources */,
+				A00695401C4DF2D500F9AC1B /* Frameworks */,
+				A00695411C4DF2D500F9AC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISnapBehavior;
+			productName = UISnapBehavior;
+			productReference = A00695431C4DF2D500F9AC1B /* UISnapBehavior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A006955B1C4DF2D500F9AC1B /* UISnapBehaviorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00695731C4DF2D500F9AC1B /* Build configuration list for PBXNativeTarget "UISnapBehaviorTests" */;
+			buildPhases = (
+				A00695581C4DF2D500F9AC1B /* Sources */,
+				A00695591C4DF2D500F9AC1B /* Frameworks */,
+				A006955A1C4DF2D500F9AC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A006955E1C4DF2D500F9AC1B /* PBXTargetDependency */,
+			);
+			name = UISnapBehaviorTests;
+			productName = UISnapBehaviorTests;
+			productReference = A006955C1C4DF2D500F9AC1B /* UISnapBehaviorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00695661C4DF2D500F9AC1B /* UISnapBehaviorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00695761C4DF2D500F9AC1B /* Build configuration list for PBXNativeTarget "UISnapBehaviorUITests" */;
+			buildPhases = (
+				A00695631C4DF2D500F9AC1B /* Sources */,
+				A00695641C4DF2D500F9AC1B /* Frameworks */,
+				A00695651C4DF2D500F9AC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00695691C4DF2D500F9AC1B /* PBXTargetDependency */,
+			);
+			name = UISnapBehaviorUITests;
+			productName = UISnapBehaviorUITests;
+			productReference = A00695671C4DF2D500F9AC1B /* UISnapBehaviorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A006953B1C4DF2D500F9AC1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lizhao;
+				TargetAttributes = {
+					A00695421C4DF2D500F9AC1B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 92ZKLC8K9P;
+					};
+					A006955B1C4DF2D500F9AC1B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 92ZKLC8K9P;
+						TestTargetID = A00695421C4DF2D500F9AC1B;
+					};
+					A00695661C4DF2D500F9AC1B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 92ZKLC8K9P;
+						TestTargetID = A00695421C4DF2D500F9AC1B;
+					};
+				};
+			};
+			buildConfigurationList = A006953E1C4DF2D500F9AC1B /* Build configuration list for PBXProject "UISnapBehavior" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A006953A1C4DF2D500F9AC1B;
+			productRefGroup = A00695441C4DF2D500F9AC1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00695421C4DF2D500F9AC1B /* UISnapBehavior */,
+				A006955B1C4DF2D500F9AC1B /* UISnapBehaviorTests */,
+				A00695661C4DF2D500F9AC1B /* UISnapBehaviorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00695411C4DF2D500F9AC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00695561C4DF2D500F9AC1B /* LaunchScreen.storyboard in Resources */,
+				A00695531C4DF2D500F9AC1B /* Assets.xcassets in Resources */,
+				A00695511C4DF2D500F9AC1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A006955A1C4DF2D500F9AC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00695651C4DF2D500F9AC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A006953F1C4DF2D500F9AC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A006954E1C4DF2D500F9AC1B /* ViewController.m in Sources */,
+				A006954B1C4DF2D500F9AC1B /* AppDelegate.m in Sources */,
+				A00695481C4DF2D500F9AC1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00695581C4DF2D500F9AC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00695611C4DF2D500F9AC1B /* UISnapBehaviorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00695631C4DF2D500F9AC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A006956C1C4DF2D500F9AC1B /* UISnapBehaviorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A006955E1C4DF2D500F9AC1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00695421C4DF2D500F9AC1B /* UISnapBehavior */;
+			targetProxy = A006955D1C4DF2D500F9AC1B /* PBXContainerItemProxy */;
+		};
+		A00695691C4DF2D500F9AC1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00695421C4DF2D500F9AC1B /* UISnapBehavior */;
+			targetProxy = A00695681C4DF2D500F9AC1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A006954F1C4DF2D500F9AC1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00695501C4DF2D500F9AC1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00695541C4DF2D500F9AC1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00695551C4DF2D500F9AC1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A006956E1C4DF2D500F9AC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A006956F1C4DF2D500F9AC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00695711C4DF2D500F9AC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UISnapBehavior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizhaoloveit.UISnapBehavior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A00695721C4DF2D500F9AC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UISnapBehavior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizhaoloveit.UISnapBehavior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A00695741C4DF2D500F9AC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UISnapBehaviorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizhaoloveit.UISnapBehaviorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISnapBehavior.app/UISnapBehavior";
+			};
+			name = Debug;
+		};
+		A00695751C4DF2D500F9AC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UISnapBehaviorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizhaoloveit.UISnapBehaviorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISnapBehavior.app/UISnapBehavior";
+			};
+			name = Release;
+		};
+		A00695771C4DF2D500F9AC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UISnapBehaviorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizhaoloveit.UISnapBehaviorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UISnapBehavior;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A00695781C4DF2D500F9AC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UISnapBehaviorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizhaoloveit.UISnapBehaviorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UISnapBehavior;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A006953E1C4DF2D500F9AC1B /* Build configuration list for PBXProject "UISnapBehavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A006956E1C4DF2D500F9AC1B /* Debug */,
+				A006956F1C4DF2D500F9AC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00695701C4DF2D500F9AC1B /* Build configuration list for PBXNativeTarget "UISnapBehavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00695711C4DF2D500F9AC1B /* Debug */,
+				A00695721C4DF2D500F9AC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A00695731C4DF2D500F9AC1B /* Build configuration list for PBXNativeTarget "UISnapBehaviorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00695741C4DF2D500F9AC1B /* Debug */,
+				A00695751C4DF2D500F9AC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A00695761C4DF2D500F9AC1B /* Build configuration list for PBXNativeTarget "UISnapBehaviorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00695771C4DF2D500F9AC1B /* Debug */,
+				A00695781C4DF2D500F9AC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A006953B1C4DF2D500F9AC1B /* Project object */;
+}
